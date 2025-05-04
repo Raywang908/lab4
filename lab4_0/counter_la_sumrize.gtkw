@@ -1,0 +1,176 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat May  3 03:40:45 2025
+[*]
+[dumpfile] "/home/ubuntu/caravel-soc_fpga/testbench/counter_la/counter_la.vcd"
+[dumpfile_mtime] "Tue Apr 29 13:11:50 2025"
+[dumpfile_size] 33449733
+[savefile] "/home/ubuntu/caravel-soc_fpga/testbench/counter_la/counter_la_sumrize.gtkw"
+[timestart] 745448000
+[size] 1848 903
+[pos] -1 -1
+*-18.000000 745987500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_tb.
+[treeopen] counter_la_tb.uut.
+[treeopen] counter_la_tb.uut.mprj.
+[treeopen] counter_la_tb.uut.padframe.
+[treeopen] counter_la_tb.uut.soc.
+[treeopen] counter_la_tb.uut.soc.core.
+[treeopen] counter_la_tb.uut.soc.core.VexRiscv.
+[sst_width] 413
+[signals_width] 566
+[sst_expanded] 1
+[sst_vpaned_height] 248
+@200
+-# counter_la_tb
+@28
+counter_la_tb.clock
+counter_la_tb.RSTB
+@22
+counter_la_tb.checkbits[15:0]
+@28
+counter_la_tb.flash_clk
+counter_la_tb.flash_csb
+counter_la_tb.flash_io0
+counter_la_tb.flash_io1
+counter_la_tb.gpio
+@22
+counter_la_tb.mprj_io[37:0]
+@28
+counter_la_tb.uart_tx
+@200
+-
+-# spiflash
+@22
+counter_la_tb.spiflash.bitcount[3:0]
+counter_la_tb.spiflash.bytecount[12:0]
+@28
+counter_la_tb.spiflash.csb
+counter_la_tb.spiflash.io0[0]
+counter_la_tb.spiflash.io1
+@22
+counter_la_tb.spiflash.memory[7:0]
+counter_la_tb.spiflash.spi_addr[23:0]
+counter_la_tb.spiflash.spi_cmd[7:0]
+@28
+counter_la_tb.spiflash.spiclk
+@200
+-
+-# bram
+@28
+counter_la_tb.bram.CLK
+@22
+counter_la_tb.bram.A0[31:0]
+counter_la_tb.bram.Di0[31:0]
+counter_la_tb.bram.Do0[31:0]
+@28
+counter_la_tb.bram.EN0
+@22
+counter_la_tb.bram.WE0[3:0]
+counter_la_tb.bram.RAM[31:0]
+@200
+-
+-# uut (caravel)
+@201
+-# housekeeping
+@28
+counter_la_tb.uut.housekeeping.wb_clk_i
+counter_la_tb.uut.housekeeping.wb_rst_i
+counter_la_tb.uut.housekeeping.wb_rstn_i
+counter_la_tb.uut.housekeeping.wb_we_i
+counter_la_tb.uut.housekeeping.wb_cyc_i
+counter_la_tb.uut.housekeeping.wb_stb_i
+counter_la_tb.uut.housekeeping.wb_ack_o
+@22
+counter_la_tb.uut.housekeeping.wb_sel_i[3:0]
+counter_la_tb.uut.housekeeping.wb_adr_i[31:0]
+counter_la_tb.uut.housekeeping.wb_dat_i[31:0]
+counter_la_tb.uut.housekeeping.wb_dat_o[31:0]
+@200
+-
+-# mprj(user_project_wrapper)
+@22
+counter_la_tb.uut.mprj.mprj.io_in[37:0]
+counter_la_tb.uut.mprj.mprj.io_oeb[37:0]
+counter_la_tb.uut.mprj.mprj.io_out[37:0]
+@28
+counter_la_tb.uut.mprj.mprj.irq[2:0]
+@22
+counter_la_tb.uut.mprj.mprj.la_data_in[127:0]
+counter_la_tb.uut.mprj.mprj.la_data_out[127:0]
+counter_la_tb.uut.mprj.mprj.la_oenb[127:0]
+counter_la_tb.uut.mprj.mprj.count[31:0]
+counter_la_tb.uut.mprj.mprj.la_write[31:0]
+@28
+counter_la_tb.uut.mprj.mprj.wb_clk_i
+counter_la_tb.uut.mprj.mprj.wb_rst_i
+counter_la_tb.uut.mprj.mprj.wbs_ack_o
+@22
+counter_la_tb.uut.mprj.mprj.wbs_adr_i[31:0]
+@28
+counter_la_tb.uut.mprj.mprj.wbs_cyc_i
+@22
+counter_la_tb.uut.mprj.mprj.wbs_dat_i[31:0]
+counter_la_tb.uut.mprj.mprj.wbs_dat_o[31:0]
+counter_la_tb.uut.mprj.mprj.wbs_sel_i[3:0]
+@28
+counter_la_tb.uut.mprj.mprj.wbs_stb_i
+counter_la_tb.uut.mprj.mprj.wbs_we_i
+@200
+-
+-# soc (mgmt_core_wrapper)
+-# VexRiscv
+-dBus
+@28
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_CYC
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_ACK
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_STB
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_WE
+@22
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_ADR[29:0]
+counter_la_tb.uut.soc.core.VexRiscv.dBus_cmd_halfPipe_payload_address[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_DAT_MISO[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_DAT_MOSI[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.dBusWishbone_SEL[3:0]
+@28
+counter_la_tb.uut.soc.core.VexRiscv.dBus_cmd_ready
+counter_la_tb.uut.soc.core.VexRiscv.dBus_cmd_valid
+counter_la_tb.uut.soc.core.VexRiscv.dBus_cmd_rValid
+counter_la_tb.uut.soc.core.VexRiscv.dBus_rsp_ready
+@22
+counter_la_tb.uut.soc.core.VexRiscv.dBus_rsp_data[31:0]
+@200
+-iBus
+@28
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_CYC
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_ACK
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_STB
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_WE
+@22
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_ADR[29:0]
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_mem_cmd_payload_address[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_DAT_MISO[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_DAT_MOSI[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.iBusWishbone_SEL[3:0]
+@28
+counter_la_tb.uut.soc.core.VexRiscv.iBus_cmd_valid
+counter_la_tb.uut.soc.core.VexRiscv.iBus_cmd_ready
+counter_la_tb.uut.soc.core.VexRiscv.iBus_rsp_valid
+@22
+counter_la_tb.uut.soc.core.VexRiscv.iBus_rsp_payload_data[31:0]
+@200
+-Cache
+@22
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_mem_cmd_payload_address[31:0]
+@28
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_mem_cmd_valid
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_cpu_decode_cacheMiss
+@22
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_cpu_decode_data[31:0]
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_cpu_fetch_data[31:0]
+@28
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_cpu_fetch_isValid
+@22
+counter_la_tb.uut.soc.core.VexRiscv.IBusCachedPlugin_cache_io_cpu_fetch_physicalAddress[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
